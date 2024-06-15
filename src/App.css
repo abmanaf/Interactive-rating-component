@@ -22,14 +22,13 @@ body {
   color: var(--White);
 }
 .rating-container {
-  width: 20rem;
-  height: 20rem;
+  width: 24rem;
+  height: 21rem;
   background-color: var(--Dark-Blue);
   margin: 0 auto;
   padding: 2em;
   border-radius: 1.2em;
   margin-top: 10em;
-  border: 2px solid red;
 }
 img {
   background-color: hsl(213, 19%, 23%);
@@ -37,52 +36,61 @@ img {
   padding: 8px 8px;
 }
 .rating-info {
-  border: 2px solid red;
   margin-top: 1em;
 }
 .rating-btn {
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
   align-items: center;
   color: hsl(217, 12%, 63%);
   gap: 20px;
-  border: 2px solid red;
 }
 
 .rate-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: hsl(213, 19%, 23%);
   color: hsl(217, 12%, 63%);
-
+  width: 100%;
   border-radius: 50%;
   border: 0 none;
-  padding: 5px 10px;
+  padding: 15px;
   font-weight: 700;
   font-size: 14px;
+  margin-top: 1em;
+  cursor: pointer;
 }
-/*
+
 .rate-btn:hover {
-  background-color: hsl(217, 12%, 63%);
+  background-color: hsl(25, 97%, 53%);
+
   color: white;
 }
 .rate-btn:focus {
-  background-color: hsl(25, 97%, 53%);
+  background-color: hsl(217, 12%, 63%);
+
   color: white;
 }
-h1,
-#submitBtn {
+
+h2 {
   color: white;
 }
-#submitBtn {
-  grid-column: 1/6;
+.submitBtn {
+  color: var(--Dark-Blue);
+}
+.submitBtn {
+  width: 100%;
   background-color: hsl(25, 97%, 53%);
-  border-radius: 25px;
-  font-weight: 700;
-  font-size: 14px;
   letter-spacing: 2px;
   border: 0 none;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0.8em 0.8em;
+  border-radius: 2em;
+  cursor: pointer;
+  margin-top: 2em;
 }
-#submitBtn:hover {
+.submitBtn:hover {
   background-color: white;
-  color: hsl(25, 97%, 53%);
 }
-*/
