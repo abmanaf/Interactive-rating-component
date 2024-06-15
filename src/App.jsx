@@ -10,8 +10,8 @@ function App() {
       <img src="./images/icon-star.svg" alt="icon-star" />
       <div className='rating-info'>
       <h2>How did we do?</h2>
-      <p style={{marginTop: '1em'}}>
-        Please let us know how we did with yoru support request.
+      <p style={{marginTop: '0.5em', color: 'hsl(217, 12%, 63%)', fontSize: '0.9em',}}>
+        Please let us know how we did with your support request.
         All feedback is appreciated to help us improve our offering.
       </p>
       </div>
@@ -23,7 +23,7 @@ function App() {
             <button class="rate-btn" id="rateBtn" onclick="userRatingValue='4'">4</button>
             <button class="rate-btn" id="rateBtn" onclick="userRatingValue='5'">5</button>
         </div>
-        <button id="submitBtn" type="submit">SUBMIT</button>
+        <button className="submitBtn" type="submit">SUBMIT</button>
         </div>
      </div>
     </>
