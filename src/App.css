@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+:root {
+  /*Primary*/
+  --Orange: hsl(25, 97%, 53%);
+  /* Neutral*/
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+ul,
+ol {
+  list-style-type: none;
+}
+body {
+  background-color: var(--Very-Dark-Blue);
+  color: var(--White);
+}
+.rating-container {
+  width: 20rem;
+  height: 20rem;
+  background-color: var(--Dark-Blue);
+  margin: 0 auto;
+  padding: 2em;
+  border-radius: 1.2em;
+  margin-top: 10em;
+  border: 2px solid red;
+}
+img {
+  background-color: hsl(213, 19%, 23%);
+  border-radius: 50%;
+  padding: 8px 8px;
+}
+.rating-info {
+  border: 2px solid red;
+  margin-top: 1em;
+}
+.rating-btn {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  color: hsl(217, 12%, 63%);
+  gap: 20px;
+  border: 2px solid red;
+}
+
+.rate-btn {
+  background-color: hsl(213, 19%, 23%);
+  color: hsl(217, 12%, 63%);
+
+  border-radius: 50%;
+  border: 0 none;
+  padding: 5px 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+/*
+.rate-btn:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+.rate-btn:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+h1,
+#submitBtn {
+  color: white;
+}
+#submitBtn {
+  grid-column: 1/6;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border: 0 none;
+}
+#submitBtn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+*/
