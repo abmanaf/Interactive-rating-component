@@ -3,6 +3,9 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const hanldeNavigate = () => {
+    
+  }
 
   return (
     <>
@@ -10,9 +13,9 @@ function App() {
       <img src="./images/icon-star.svg" alt="icon-star" />
       <div className='rating-info'>
       <h2>How did we do?</h2>
-      <p style={{marginTop: '0.5em', color: 'hsl(217, 12%, 63%)', fontSize: '0.9em',}}>
+      <p className='message' style={{marginTop: '0.5em', color: 'hsl(217, 12%, 63%)',}}>
         Please let us know how we did with your support request.
-        All feedback is appreciated to help us improve our offering.
+        All feedback is appreciated to help us improve our offering!
       </p>
       </div>
       <div >
@@ -23,7 +26,7 @@ function App() {
             <button class="rate-btn" id="rateBtn" onclick="userRatingValue='4'">4</button>
             <button class="rate-btn" id="rateBtn" onclick="userRatingValue='5'">5</button>
         </div>
-        <button className="submitBtn" type="submit">SUBMIT</button>
+        <button onClick={()=> hanldeNavigate()} className="submitBtn" type="submit">SUBMIT</button>
         </div>
      </div>
     </>
