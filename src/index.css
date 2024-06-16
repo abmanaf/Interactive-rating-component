@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+:root {
+  /*Primary*/
+  --Orange: hsl(25, 97%, 53%);
+  /* Neutral*/
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+ul,
+ol {
+  list-style-type: none;
+}
+body {
+  background-color: var(--Very-Dark-Blue);
+  color: var(--White);
+}
+.rating-container {
+  width: 24rem;
+  height: 21rem;
+  background-color: var(--Dark-Blue);
+  margin: 0 auto;
+  padding: 2em;
+  border-radius: 1.2em;
+  margin-top: 10em;
+}
+.selected-score {
+  width: 150px;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(213, 19%, 23%);
+  padding: 2px 2px;
+  border-radius: 10px;
+  font-size: 13px;
+  text-align: center;
+  color: var(--Orange);
+}
+
+.thank-you-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*
+img {
+  background-color: hsl(213, 19%, 23%);
+  border-radius: 50%;
+  padding: 8px 8px;
+}
+*/
+.rating-info {
+  margin-top: 1em;
+  text-align: center;
+}
+.rating-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(217, 12%, 63%);
+  gap: 20px;
+}
+.message {
+  font-size: 0.9em;
+}
+
+.rate-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 23%);
+  color: hsl(217, 12%, 63%);
+  width: 100%;
+  border-radius: 50%;
+  border: 0 none;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.rate-btn:hover {
+  background-color: hsl(25, 97%, 53%);
+
+  color: white;
+}
+.rate-btn:focus {
+  background-color: hsl(217, 12%, 63%);
+
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+.submitBtn {
+  color: var(--Dark-Blue);
+}
+.submitBtn {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  letter-spacing: 2px;
+  border: 0 none;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0.8em 0.8em;
+  border-radius: 2em;
+  cursor: pointer;
+  margin-top: 2em;
+}
+.submitBtn:hover {
+  background-color: white;
+}
+@media only screen and (max-width: 400px) {
+  .rating-container {
+    width: 90%;
+    height: 19.5rem;
+    background-color: var(--Dark-Blue);
+    margin: 1em auto;
+    padding: 2em;
+    border-radius: 1.2em;
+    margin-top: 10em;
+  }
+
+  .message {
+    font-size: 0.71em;
+  }
+
+  .rating-btn {
+    gap: 10px;
+  }
+
+  .rate-btn {
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 1.5em;
+    cursor: pointer;
+  }
+}
