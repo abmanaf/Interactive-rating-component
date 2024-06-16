@@ -45,6 +45,9 @@ img {
   color: hsl(217, 12%, 63%);
   gap: 20px;
 }
+.message {
+  font-size: 0.9em;
+}
 
 .rate-btn {
   display: flex;
@@ -93,4 +96,34 @@ h2 {
 }
 .submitBtn:hover {
   background-color: white;
+}
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: aqua;
+  }
+  .rating-container {
+    width: 90%;
+    height: 19.5rem;
+    background-color: var(--Dark-Blue);
+    margin: 1em auto;
+    padding: 2em;
+    border-radius: 1.2em;
+    margin-top: 10em;
+  }
+
+  .message {
+    font-size: 0.71em;
+  }
+
+  .rating-btn {
+    gap: 10px;
+  }
+
+  .rate-btn {
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 1.5em;
+    cursor: pointer;
+  }
 }
