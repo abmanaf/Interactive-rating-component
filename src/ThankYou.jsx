@@ -6,7 +6,6 @@ function ThankYou() {
   const location = useLocation()
   const { selectedRating } = location.state || { selectedRating: 0 }
 
-  
   return (
     <div className='thank-you-container'>
       <div className='thank-you-image'>
