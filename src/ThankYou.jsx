@@ -1,5 +1,4 @@
 import React from 'react'
-import './index.css'
 import { useLocation } from 'react-router-dom'
 
 function ThankYou() {
