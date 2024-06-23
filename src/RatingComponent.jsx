@@ -10,6 +10,7 @@ function RatingComponent() {
   const handleNavigate = () => {
     navigate("/ThankYou", { state: { selectedRating: count } })
   }
+  
   return (
     <div className='rating-container'>
       <img src="./images/icon-star.svg" alt="icon-star" />
