@@ -48,13 +48,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-/*
-img {
-  background-color: hsl(213, 19%, 23%);
-  border-radius: 50%;
-  padding: 8px 8px;
-}
-*/
 .rating-info {
   margin-top: 1em;
   text-align: center;
