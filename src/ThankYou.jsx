@@ -7,7 +7,7 @@ function ThankYou() {
   const { selectedRating } = location.state || { selectedRating: 0 }
 
   return (
-    <div className='rating-container'>
+    <div className='thank-you-container'>
       <div className='thank-you-image'>
         <img src="./images/illustration-thank-you.svg" alt="illustration-thank-you" />
       </div>
