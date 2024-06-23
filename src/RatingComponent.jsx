@@ -8,9 +8,11 @@ function RatingComponent() {
   const navigate = useNavigate()
 
   const handleNavigate = () => {
-    navigate("/ThankYou", { state: { selectedRating: count } })
+    if (count > 0) {
+        navigate("/ThankYou", { state: { selectedRating: count } })
+      }
   }
-  
+
   return (
     <div className='rating-container'>
       <img src="./images/icon-star.svg" alt="icon-star" />
@@ -26,15 +28,21 @@ function RatingComponent() {
           {list.map(value => (
             <button
               key={value}
-              className="rate-btn"
+              className={`rate-btn ${count === value ? 'selected' : ''}`}
               onClick={() => setCount(value)}
             >
               {value}
             </button>
           ))}
         </div>
-        <button onClick={handleNavigate} className="submitBtn" type="submit">SUBMIT</button>
-      </div>
+        <button
+          onClick={handleNavigate}
+          className="submitBtn"
+          type="submit"
+          disabled={count === 0}
+        >
+          SUBMIT
+        </button>      </div>
     </div>
   )
 }
