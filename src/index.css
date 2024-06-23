@@ -21,7 +21,7 @@ body {
   background-color: var(--Very-Dark-Blue);
   color: var(--White);
 }
-.rating-container {
+.thank-you-container {
   width: 24rem;
   height: 21rem;
   background-color: var(--Dark-Blue);
