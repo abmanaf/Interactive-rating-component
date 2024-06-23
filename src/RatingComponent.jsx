@@ -42,7 +42,8 @@ function RatingComponent() {
           disabled={count === 0}
         >
           SUBMIT
-        </button>      </div>
+        </button>
+    </div>
     </div>
   )
 }
