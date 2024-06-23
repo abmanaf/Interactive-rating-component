@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 function RatingComponent() {
   const [count, setCount] = useState(0)
+  const [list, setList] = useState([1,2,3,4,5])
   const navigate = useNavigate()
 
   const handleNavigate = () => {
@@ -22,7 +23,7 @@ function RatingComponent() {
       </div>
       <div>
         <div className='rating-btn'>
-          {[1, 2, 3, 4, 5].map(value => (
+          {list.map(value => (
             <button
               key={value}
               className="rate-btn"
