@@ -119,7 +119,7 @@ h2 {
   background-color: white;
 }
 @media only screen and (max-width: 400px) {
-  .rating-container {
+  .thank-you-container {
     width: 90%;
     height: 19.5rem;
     background-color: var(--Dark-Blue);
