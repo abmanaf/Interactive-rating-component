@@ -39,11 +39,6 @@ body {
 .rating-info {
   margin-top: 1em;
 }
-/*
-.submitBtn:disabled {
-  cursor: not-allowed;
-}
-*/
 
 .rating-btn {
   display: flex;
