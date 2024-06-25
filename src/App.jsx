@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import RatingComponent from './RatingComponent'
-import ThankYou from './ThankYou'
+import RatingComponent from './Components/RatingComponent'
+import ThankYou from './Components/ThankYou'
 
 function App() {
   return (
