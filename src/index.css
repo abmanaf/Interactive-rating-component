@@ -5,7 +5,6 @@
   font-family: "Overpass", sans-serif;
 }
 :root {
-  /*Primary*/
   --Orange: hsl(25, 97%, 53%);
   --White: hsl(0, 0%, 100%);
   --Light-Grey: hsl(217, 12%, 63%);
